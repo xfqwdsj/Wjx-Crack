@@ -10,4 +10,6 @@
 
 或使用国内镜像如`https://ghproxy.com/https://raw.githubusercontent.com/xfqwdsj/Wjx-Crack/main/jqnew2.js`
 
+[跨域插件](https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf/related)
+
 直接提交即为2秒
