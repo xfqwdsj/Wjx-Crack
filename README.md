@@ -12,7 +12,7 @@
 
 [附加插件](https://chrome.google.com/webstore/detail/modheader/idgpnmonknjnojddfkpgkljpfnnfcklj/)
 
-![配置](https://user-images.githubusercontent.com/37076189/154667530-70e96397-bc98-405b-bad2-a6d7452fa163.png)
+`.*://ghproxy.com/https://raw.githubusercontent.com/xfqwdsj/Wjx-Crack/main/.*\.js`
 
 点击最顶部+号添加
 
