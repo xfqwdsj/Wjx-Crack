@@ -3298,8 +3298,7 @@ function processError(a, b, c) {
 }
 function submit(a) {
     var b, c, d, e, f, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x;
-    var date = new Date
-    var dateString = `${date.getFullYear()}/${date.getMonth() + 1}/${date.getDate()} ${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`
+    var date = new Date(Date.parse(new Date) - parseInt(prompt("输入时长（毫秒）")))
     if (2 == a || validate()) {
         if (1 == a) {
             if (window.useAliVerify && !isCaptchaValid)
@@ -3365,8 +3364,8 @@ function submit(a) {
         window.qdataList && qdataList.length > 0 && (e += "&aqsj=" + encodeURIComponent(qdataList.join(""))),
         window.useAliVerify && (e += "&nc_csessionid=" + encodeURIComponent(nc_csessionid) + "&nc_sig=" + encodeURIComponent(nc_sig) + "&nc_token=" + encodeURIComponent(nc_token) + "&nc_scene=" + nc_scene),
         verifymob && (e += "&verifymob=" + verifymob),
-        e += "&starttime=" + encodeURIComponent(dateString),
-        initstime != starttime && (e += "&initst=" + encodeURIComponent(dateString)),
+        e += "&starttime=" + encodeURIComponent(date.toLocaleString()),
+        initstime != starttime && (e += "&initst=" + encodeURIComponent(date.toLocaleString())),
         guid && (e += "&emailguid=" + guid),
         window.sjUser && (e += "&sjUser=" + encodeURIComponent(sjUser)),
         window.sjts && (e += "&sjts=" + sjts),
