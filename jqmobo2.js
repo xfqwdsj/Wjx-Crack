@@ -1799,7 +1799,8 @@ function debugLog(a) {
 }
 function groupAnswer(a) {
     var f, g, h, i, j, k, m, n, o, p, q, r, s, t, u, v, w, x, y, z, A, D, E, F, G, H, I, J, b = new Array, c = 0, d = new Object, e = 1;
-    var date = new Date(Date.parse(new Date) - parseInt(prompt("输入时长（毫秒）")))
+    var delta = parseInt(prompt("输入时长（毫秒）"))
+    var date = new Date(Date.parse(new Date) - delta)
     try {
         if (1 == a) {
             for (f = 0; f < quResult.length; f++)

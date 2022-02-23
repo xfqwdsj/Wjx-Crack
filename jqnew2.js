@@ -3298,7 +3298,8 @@ function processError(a, b, c) {
 }
 function submit(a) {
     var b, c, d, e, f, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x;
-    var date = new Date(Date.parse(new Date) - parseInt(prompt("输入时长（毫秒）")))
+    var delta = parseInt(prompt("输入时长（毫秒）"))
+    var date = new Date(Date.parse(new Date) - delta)
     if (2 == a || validate()) {
         if (1 == a) {
             if (window.useAliVerify && !isCaptchaValid)
