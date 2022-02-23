@@ -1799,8 +1799,7 @@ function debugLog(a) {
 }
 function groupAnswer(a) {
     var f, g, h, i, j, k, m, n, o, p, q, r, s, t, u, v, w, x, y, z, A, D, E, F, G, H, I, J, b = new Array, c = 0, d = new Object, e = 1;
-    var date = new Date(Date.parse(new Date) + 5000)
-    var dateString = `${date.getFullYear()}/${date.getMonth() + 1}/${date.getDate()} ${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`
+    var date = new Date//(Date.parse(new Date) + 5000)
     try {
         if (1 == a) {
             for (f = 0; f < quResult.length; f++)
@@ -1889,7 +1888,7 @@ function groupAnswer(a) {
     if (v = $("#form1").attr("action"),
         (v.indexOf("aliyun.wjx.cn") > -1 || v.indexOf("temp.wjx.cn") > -1) && (v = v.replace("aliyun.wjx.cn", window.location.host).replace("temp.wjx.cn", window.location.host)),
         0 == v.indexOf("http://") && "https:" == document.location.protocol ? v = v.replace("http://", "https://") : 0 == v.indexOf("https://") && "http:" == document.location.protocol && (v = v.replace("https://", "http://")),
-        w = v + "&starttime=" + encodeURIComponent(dateString),
+        w = v + "&starttime=" + encodeURIComponent(date.toLocaleString()),
         x = window.sojumpParm,
         window.hasEncode || (x = encodeURIComponent(x)),
         window.sojumpParm && (w += "&sojumpparm=" + x),
