@@ -1799,7 +1799,7 @@ function debugLog(a) {
 }
 function groupAnswer(a) {
     var f, g, h, i, j, k, m, n, o, p, q, r, s, t, u, v, w, x, y, z, A, D, E, F, G, H, I, J, b = new Array, c = 0, d = new Object, e = 1;
-    var date = new Date(Date.parse(new Date) + 1000)
+    var date = new Date(Date.parse(new Date) + 5000)
     var dateString = `${date.getFullYear()}/${date.getMonth() + 1}/${date.getDate()} ${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`
     try {
         if (1 == a) {
