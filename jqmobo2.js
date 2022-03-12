@@ -1,5 +1,3 @@
-function processMinMax() {}
-
 function setCookie(a, b, c, d, e, f) {
     document.cookie = a + "=" + encodeURIComponent(b) + (c ? "; expires=" + c : "") + (d ? "; path=" + d : "") + (e ? "; domain=" + e : "") + (f ? "; secure" : "")
 }
@@ -1217,9 +1215,7 @@ function needTip() {
     return !1
 }
 
-function loadMinMaxTime() {
-    window.hasPageTime && (window.divFengMian || 3 == isChuangGuan || 4 == isChuangGuan || processMinMax())
-}
+function loadMinMaxTime() {}
 
 function checkAnswer() {
     var a, b, c, d, e;
@@ -3706,7 +3702,6 @@ function to_next_page() {
         showProgress(),
         n = (cur_page >= pageHolder.length - 1 || l) && pageHolder[cur_page].questions && 0 == pageHolder[cur_page].questions.length && pageHolder[cur_page].cuts && 0 == pageHolder[cur_page].cuts.length,
         n && autoSubmit(null, !0, !0),
-        window.hasPageTime && processMinMax(),
         2 == window.isChuangGuan && ($("#divSubmit")
             .hide(),
             $("fieldset:visible")
