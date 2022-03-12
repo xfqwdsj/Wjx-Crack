@@ -279,11 +279,7 @@ function Init() {
     }
     ,
     submit_button.onclick = function() {
-        return window.isWaiGuan ? (popUpAlert("\u63d0\u793a\uff1a\u95ee\u5377\u9884\u89c8\u9875\u9762\uff0c\u53ea\u80fd\u9884\u89c8\uff0c\u4e0d\u80fd\u63d0\u4ea4\uff01"),
-        void 0) : (checkDisalbed() || (window.hasHeatMap ? getHeatmapAns(function() {
-            submit(1)
-        }) : submit(1)),
-        void 0)
+        submit(1)
     }
     ,
     isPub && (document.getElementById("submittest_button").onclick = function() {
