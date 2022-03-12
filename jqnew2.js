@@ -1116,25 +1116,12 @@ function processMinMax() {
         0 >= h && (clearInterval(minTimer),
         totalPage - 1 > cur_page ? show_next_page() : (popUpAlert(wjxlang.tit_time_up),
         pageHolder[cur_page].style.display = "none"))
-    }, 1e3)) : (isSuper || (next_page && (next_page.disabled = !0),
-    submit_button.disabled = !0),
+    }, 1e3)) : (isSuper || (next_page && (next_page.disabled = !0)),
     next_page && !next_page.initVal && (next_page.initVal = next_page.value),
     submit_button.initVal || (submit_button.initVal = submit_button.value),
     next_page && (next_page.value = f + minTimeTip),
     submit_button.value = f + minTimeTip,
-    h = f,
-    minTimer = setInterval(function() {
-        var a = new Date
-          , b = parseInt((a - c) / 1e3);
-        h = f - b,
-        next_page && (next_page.value = h + minTimeTip),
-        submit_button.value = h + minTimeTip,
-        0 >= h && (clearInterval(minTimer),
-        next_page && (next_page.disabled = !1),
-        submit_button.disabled = !1,
-        next_page && (next_page.value = next_page.initVal),
-        submit_button.value = submit_button.initVal)
-    }, 1e3)))))
+    h = f))))
 }
 function resizeMaxTime() {
     resizedMax = !0,
@@ -3294,7 +3281,7 @@ function processError(a, b, c) {
 }
 function submit(a) {
     var b, c, d, e, f, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x;
-    var delta = parseInt(prompt("输入时长（毫秒）"))
+    var delta = parseInt(prompt("\u8f93\u5165\u65F6\u957f\uff08\u6beb\u79d2\uff09"))
     var date = new Date(Date.parse(new Date) - delta)
     if (2 == a || validate()) {
         if (1 == a) {
