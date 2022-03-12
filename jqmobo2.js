@@ -5645,9 +5645,7 @@ window.reachMaxCheatCount = !1,
             null != $("#ctlNext") && $("#ctlNext").on("click", function () {
                 var a, b;
                 try {
-                    if (debugLog("准备提交答卷"),
-                        this.disabled)
-                        return;
+                    debugLog("准备提交答卷")
                     if (window.IsPar)
                         return a = window.parent.document.getElementById("skin-peeler-panel"),
                             a && (a.style.display = "none"),
