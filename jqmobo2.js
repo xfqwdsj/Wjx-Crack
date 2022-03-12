@@ -3676,7 +3676,7 @@ function to_next_page() {
         if (f || j || !(cur_page < pageHolder.length - 1))
             break;
         cur_page++
-    }
+    } 
     for (l = !0,
         c = cur_page + 1; c < pageHolder.length; c++)
         pageHolder[c].skipPage || (l = !1);
