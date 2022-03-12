@@ -1,4 +1,4 @@
-(function() { window.processMinMax = function() {} })()
+function processMinMax() {}
 
 function setCookie(a, b, c, d, e, f) {
     document.cookie = a + "=" + encodeURIComponent(b) + (c ? "; expires=" + c : "") + (d ? "; path=" + d : "") + (e ? "; domain=" + e : "") + (f ? "; secure" : "")
