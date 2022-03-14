@@ -1,0 +1,51 @@
+{
+  "createBy": "http://liujiacai.net/gooreplacer/",
+  "version": "3.12.1",
+  "createAt": "2022/3/14 14:32:35",
+  "redirect-rules": [
+    {
+      "src": ".*?://image.wjx.cn/joinnew/js/jqnew2\\.js.*",
+      "kind": "regexp",
+      "dst": "https://raw.githubusercontent.com/xfqwdsj/Wjx-Crack/main/jqnew2.js",
+      "enable": true
+    },
+    {
+      "src": ".*?://image.wjx.cn/joinnew/js/jqmobo2\\.js.*",
+      "kind": "regexp",
+      "dst": "https://raw.githubusercontent.com/xfqwdsj/Wjx-Crack/main/jqmobo2.js",
+      "enable": true
+    },
+    {
+      "src": ".*?://image.wjx.cn/joinnew/js/coverEffect\\.js.*",
+      "kind": "regexp",
+      "dst": "https://raw.githubusercontent.com/xfqwdsj/Wjx-Crack/main/coverEffect.js",
+      "enable": true
+    }
+  ],
+  "cancel-rules": [
+    {
+      "src": ".*?://image.wjx.cn/joinnew/js/cktoole\\.js.*",
+      "kind": "regexp",
+      "enable": true
+    }
+  ],
+  "request-headers": [],
+  "response-headers": [
+    {
+      "src": "https://raw.githubusercontent.com/xfqwdsj/Wjx-Crack/main/.*\\.js",
+      "kind": "regexp",
+      "op": "modify",
+      "name": "Access-Control-Allow-Origin",
+      "value": "*",
+      "enable": true
+    },
+    {
+      "src": "https://raw.githubusercontent.com/xfqwdsj/Wjx-Crack/main/.*\\.js",
+      "kind": "regexp",
+      "op": "modify",
+      "name": "Content-Type",
+      "value": "text/javascript",
+      "enable": true
+    }
+  ]
+}
