@@ -1,7 +1,7 @@
 {
   "createBy": "http://liujiacai.net/gooreplacer/",
   "version": "3.12.1",
-  "createAt": "2022/3/14 14:32:35",
+  "createAt": "2022/3/14 14:38:05",
   "redirect-rules": [
     {
       "src": ".*?://image.wjx.cn/joinnew/js/jqnew2\\.js.*",
@@ -24,7 +24,7 @@
   ],
   "cancel-rules": [
     {
-      "src": ".*?://image.wjx.cn/joinnew/js/cktoole\\.js.*",
+      "src": ".*?://ks.wjx.top/joinnew/js/cktoole\\.js.*",
       "kind": "regexp",
       "enable": true
     }
