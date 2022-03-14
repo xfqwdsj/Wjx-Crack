@@ -4,19 +4,19 @@
   "createAt": "2022/3/14 14:38:05",
   "redirect-rules": [
     {
-      "src": ".*wjx.*jqnew2",
+      "src": ".*wjx.*jqnew2.*",
       "kind": "regexp",
       "dst": "https://raw.githubusercontent.com/xfqwdsj/Wjx-Crack/main/jqnew2.js",
       "enable": true
     },
     {
-      "src": ".*wjx.*jqmobo2",
+      "src": ".*wjx.*jqmobo2.*",
       "kind": "regexp",
       "dst": "https://raw.githubusercontent.com/xfqwdsj/Wjx-Crack/main/jqmobo2.js",
       "enable": true
     },
     {
-      "src": ".*wjx.*coverEffect",
+      "src": ".*wjx.*coverEffect.*",
       "kind": "regexp",
       "dst": "https://raw.githubusercontent.com/xfqwdsj/Wjx-Crack/main/coverEffect.js",
       "enable": true
@@ -24,7 +24,7 @@
   ],
   "cancel-rules": [
     {
-      "src": ".*wjx.*cktoole",
+      "src": ".*wjx.*cktoole.*",
       "kind": "regexp",
       "enable": true
     }
@@ -32,7 +32,7 @@
   "request-headers": [],
   "response-headers": [
     {
-      "src": "https://raw.githubusercontent.com/xfqwdsj/Wjx-Crack/main/.*\\.js",
+      "src": "https://raw.githubusercontent.com/xfqwdsj/Wjx-Crack/main/.*",
       "kind": "regexp",
       "op": "modify",
       "name": "Access-Control-Allow-Origin",
@@ -40,7 +40,7 @@
       "enable": true
     },
     {
-      "src": "https://raw.githubusercontent.com/xfqwdsj/Wjx-Crack/main/.*\\.js",
+      "src": "https://raw.githubusercontent.com/xfqwdsj/Wjx-Crack/main/.*",
       "kind": "regexp",
       "op": "modify",
       "name": "Content-Type",
