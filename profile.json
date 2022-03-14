@@ -4,19 +4,19 @@
   "createAt": "2022/3/14 14:38:05",
   "redirect-rules": [
     {
-      "src": ".*?://image.wjx.cn/joinnew/js/jqnew2\\.js.*",
+      "src": ".*?://ks.wjx.top/joinnew/js/jqnew2\\.js.*",
       "kind": "regexp",
       "dst": "https://raw.githubusercontent.com/xfqwdsj/Wjx-Crack/main/jqnew2.js",
       "enable": true
     },
     {
-      "src": ".*?://image.wjx.cn/joinnew/js/jqmobo2\\.js.*",
+      "src": ".*?://ks.wjx.top/joinnew/js/jqmobo2\\.js.*",
       "kind": "regexp",
       "dst": "https://raw.githubusercontent.com/xfqwdsj/Wjx-Crack/main/jqmobo2.js",
       "enable": true
     },
     {
-      "src": ".*?://image.wjx.cn/joinnew/js/coverEffect\\.js.*",
+      "src": ".*?://ks.wjx.top/joinnew/js/coverEffect\\.js.*",
       "kind": "regexp",
       "dst": "https://raw.githubusercontent.com/xfqwdsj/Wjx-Crack/main/coverEffect.js",
       "enable": true
