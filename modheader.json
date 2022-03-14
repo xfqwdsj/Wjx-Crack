@@ -1,0 +1,68 @@
+[
+    {
+        "alwaysOn": true,
+        "appendMode": false,
+        "backgroundColor": "#ff0000",
+        "filters": [],
+        "headers": [],
+        "hideComment": true,
+        "respHeaders": [],
+        "shortTitle": "一",
+        "textColor": "#ffffff",
+        "title": "问卷星一",
+        "urlReplacements": [
+            {
+                "comment": "破解了电脑端禁用复制、限制时间，允许自定义做题时长。",
+                "enabled": true,
+                "name": ".*wjx.*jqnew2.*",
+                "value": "https://raw.githubusercontent.com/xfqwdsj/Wjx-Crack/main/jqnew2.js"
+            },
+            {
+                "comment": "破解了手机端限制时间，允许自定义做题时长。",
+                "enabled": true,
+                "name": ".*wjx.*jqmobo2.*",
+                "value": "https://raw.githubusercontent.com/xfqwdsj/Wjx-Crack/main/jqmobo2.js"
+            },
+            {
+                "comment": "破解了手机端在设置了“上滑进入”时的限制时间。",
+                "enabled": true,
+                "name": ".*wjx.*coverEffect.*",
+                "value": "https://raw.githubusercontent.com/xfqwdsj/Wjx-Crack/main/coverEffect.js"
+            },
+            {
+                "comment": "这是电脑端防止作弊的脚本。",
+                "enabled": true,
+                "name": ".*wjx.*cktoole.*",
+                "value": "about:blank"
+            }
+        ]
+    },
+    {
+        "alwaysOn": true,
+        "appendMode": false,
+        "backgroundColor": "#ff0000",
+        "filters": [
+            {
+                "comment": "",
+                "enabled": true,
+                "resourceType": [],
+                "type": "urls",
+                "urlRegex": ".*raw.*Wjx-Crack.*\\.js$"
+            }
+        ],
+        "headers": [],
+        "hideComment": true,
+        "respHeaders": [
+            {
+                "comment": "防止浏览器不加载跨域脚本。",
+                "enabled": true,
+                "name": "Content-Type",
+                "value": "text/javascript"
+            }
+        ],
+        "shortTitle": "二",
+        "textColor": "#ffffff",
+        "title": "问卷星二",
+        "urlReplacements": []
+    }
+]
