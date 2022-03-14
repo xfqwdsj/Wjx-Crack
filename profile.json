@@ -4,19 +4,19 @@
   "createAt": "2022/3/14 14:38:05",
   "redirect-rules": [
     {
-      "src": ".*?://ks.wjx.top/joinnew/js/jqnew2\\.js.*",
+      "src": ".*wjx.*jqnew2",
       "kind": "regexp",
       "dst": "https://raw.githubusercontent.com/xfqwdsj/Wjx-Crack/main/jqnew2.js",
       "enable": true
     },
     {
-      "src": ".*?://ks.wjx.top/joinnew/js/jqmobo2\\.js.*",
+      "src": ".*wjx.*jqmobo2",
       "kind": "regexp",
       "dst": "https://raw.githubusercontent.com/xfqwdsj/Wjx-Crack/main/jqmobo2.js",
       "enable": true
     },
     {
-      "src": ".*?://ks.wjx.top/joinnew/js/coverEffect\\.js.*",
+      "src": ".*wjx.*coverEffect",
       "kind": "regexp",
       "dst": "https://raw.githubusercontent.com/xfqwdsj/Wjx-Crack/main/coverEffect.js",
       "enable": true
@@ -24,7 +24,7 @@
   ],
   "cancel-rules": [
     {
-      "src": ".*?://ks.wjx.top/joinnew/js/cktoole\\.js.*",
+      "src": ".*wjx.*cktoole",
       "kind": "regexp",
       "enable": true
     }
