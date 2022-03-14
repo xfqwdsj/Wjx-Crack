@@ -7,7 +7,7 @@
       "src": ".*wjx.*jqnew2.*",
       "kind": "regexp",
       "dst": "https://raw.githubusercontent.com/xfqwdsj/Wjx-Crack/main/jqnew2.js",
-      "enable": true,
+      "enable": true
     },
     {
       "src": ".*wjx.*jqmobo2.*",
