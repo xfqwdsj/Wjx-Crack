@@ -11,20 +11,7 @@ function forbidBackSpace(a) {
     return e ? !1 : void 0
 }
 
-function avoidCopy(a) {
-    if (a = window.event || a,
-        iscropper)
-        return !0;
-    if (isKaoShi)
-        return !1;
-    var b;
-    return a && (a.target ? b = a.target : a.srcElement && (b = a.srcElement),
-        3 == b.nodeType && (b = b.parentNode),
-        "INPUT" == b.tagName || "TEXTAREA" == b.tagName || "SELECT" == b.tagName
-    ) ? !0 : (document.selection && document.selection.empty && document.selection
-        .empty(),
-        !1)
-}
+function avoidCopy(a) {}
 
 function openlink(a, b) {
     var d, c = a.getAttribute("data-url") || a.getAttribute("href");
