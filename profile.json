@@ -35,14 +35,6 @@
         "src": "https://raw.githubusercontent.com/xfqwdsj/Wjx-Crack/main/.*",
         "kind": "regexp",
         "op": "modify",
-        "name": "Access-Control-Allow-Origin",
-        "value": "*",
-        "enable": true
-      },
-      {
-        "src": "https://raw.githubusercontent.com/xfqwdsj/Wjx-Crack/main/.*",
-        "kind": "regexp",
-        "op": "modify",
         "name": "Content-Type",
         "value": "text/javascript",
         "enable": true
