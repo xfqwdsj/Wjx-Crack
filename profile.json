@@ -32,7 +32,7 @@
     "request-headers": [],
     "response-headers": [
       {
-        "src": ".*Wjx-Crack.*",
+        "src": ".*raw.*Wjx-Crack.*\\.js$",
         "kind": "regexp",
         "op": "modify",
         "name": "Content-Type",
